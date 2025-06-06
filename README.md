@@ -57,7 +57,7 @@ src/
 
 ## 🚀 Getting Started
 
-1. Clone the repository and cd to project:
+1. Clone the repository and cd to client:
 
 2. Install dependencies ("npm install").
 
