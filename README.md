@@ -77,11 +77,11 @@ src/
 ## 🔧 API Integration
 
 The game uses the [Free Dictionary API](https://dictionaryapi.dev/) to validate words:
+In production env we might have used a preloaded word.txt file to be able to play offline, but this works for the assignment.
 
 - Endpoint: `https://api.dictionaryapi.dev/api/v2/entries/en/{word}`
 - Method: GET request to check word validity
 - Response: 200 OK for valid words, 404 for invalid words
-  In production env we might have used a preloaded word.txt file to be able to play offline, but this works for the assignment.
 
 ## 🔄 Event Flow
 
