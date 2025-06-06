@@ -61,7 +61,7 @@ src/
 
 2. Install dependencies ("npm install").
 
-3. Start the development server ("npm start"):
+3. Start the development server ("npm run dev"):
 
 4. Open localhost to view the game in your browser.
 
