@@ -1,4 +1,4 @@
 export interface BoxesComponentProps {
-    letters: string[];
-    status?: boolean;
+    word: string;
+    status: boolean | null;
 };

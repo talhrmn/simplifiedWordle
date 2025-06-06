@@ -1,14 +1,40 @@
 .container {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+	margin-bottom: 2rem;
 }
 
 .keyRow {
+	display: flex;
+	gap: 0.5rem;
 }
 
 .keyButton {
+	width: 3rem;
+	height: 4rem;
+	border-radius: 0.3rem;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #d3d6da;
+	font-size: 1rem;
+	font-weight: bold;
+	color: black;
+	transition: transform 0.2s ease-in-out;
+}
+
+.keyButton:hover {
+	transform: scale(1.1);
+	transition: transform 0.2s ease-in-out;
 }
 
 .enterBtn {
+	width: 5rem;
 }
 
 .deleteBtn {
+	font-size: 1.5rem;
 }
