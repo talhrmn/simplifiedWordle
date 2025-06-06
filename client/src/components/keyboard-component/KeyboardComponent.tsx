@@ -4,7 +4,7 @@ import { KEYBOARD_KEYS, SPECIAL_KEYS } from "./consts";
 
 const KeyboardComponent = ({ onClick }: KeyboardComponentProps) => {
 	return (
-		<div className={styles.keyboardContainer}>
+		<div className={styles.container}>
 			{KEYBOARD_KEYS.map((keyRow, keyRowIdx) => (
 				<div className={styles.keyRow} key={keyRowIdx}>
 					{keyRow.map((key) => (
